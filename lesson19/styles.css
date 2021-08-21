@@ -1,0 +1,31 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2F3637;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.time,
+.date {
+    display: flex;
+    justify-content: center;
+    color: #75fcf0;
+    text-shadow: 0 0 15px #75fcf0, 0 0 30px #75fcf0;
+}
+
+.time {
+    font-size: 120px;
+}
+
+.date {
+    font-size: 60px;
+    margin-top: 20px;
+}
