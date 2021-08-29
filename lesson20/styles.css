@@ -1,0 +1,70 @@
+.wrapper {
+    width: 600px;
+    height: auto;
+    margin: 30px auto;
+    font: 18px/20px Comfortaa;
+    color: #404040;
+}
+
+.data-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inp {
+    font-family: 'Comfortaa';
+    padding: 5px;
+    width: 160px;
+}
+
+.btn-select {
+    width: 30px;
+    height: 30px;
+    background-color: #E9E9E9;
+    border: solid #E9E9E9;
+    border-radius: 50%;
+    color: #404040;
+}
+
+.btn-select:hover {
+    transition: 500ms;
+    cursor: pointer;
+    background-color: #B5B5B5;
+    border: solid #B5B5B5;
+}
+
+.table {
+    margin-top: 20px;
+    width: 600px;
+}
+
+.heading-line th {
+    background-color: #d7d7d7;
+    padding: 5px;
+    border-right: solid 2px #ffffff;
+}
+
+.name,
+.quanity,
+.price,
+.btn-del {
+    text-align: center;
+    padding: 5px;
+    background-color: #E9E9E9;
+    border-right: solid 2px #ffffff;
+}
+
+.btn-del {
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.btn-del:hover {
+    color: red;
+}
+
+.sum {
+    padding: 5px;
+    margin-top: 20px;
+    background-color: #E9E9E9;
+}
