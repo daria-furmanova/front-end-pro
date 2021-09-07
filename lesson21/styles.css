@@ -1,0 +1,46 @@
+.cont-btn {
+    width: 300px;
+    margin: 100px auto 20px;
+    text-align: center;
+}
+
+.btn-on {
+    padding: 10px;
+    background-color: #CACBFB;
+    cursor: pointer;
+    border: solid #CACBFB;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn-on,
+.container-todo {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.btn-on:hover {
+    background-color: #B2B3F6;
+    border: solid #B2B3F6;
+}
+
+.container-todo {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bg-red {
+    background-color: #FBCACB;
+}
+
+.bg-green {
+    background-color: #CBFBCA;
+}
+
+.text {
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+}
